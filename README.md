@@ -32,4 +32,4 @@ To build the firmware:
 If you want to enable features,
   modify the appropriate `.conf` file.
 
-Ripped off from @urob 's [ZMK Config](https://github.com/urob/zmk-config/)
+Ripped off from [@urob](https://github.com/urob)'s [ZMK Config](https://github.com/urob/zmk-config/)
