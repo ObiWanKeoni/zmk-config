@@ -27,10 +27,9 @@ ZMK_COMBO(plus,  &kp PLUS,      LM0 LM1,     DEF NAV NUM, COMBO_TERM_SLOW)
 /* Horizontal combos - right hand */
 ZMK_COMBO(under, &kp UNDER,     RB1 RB2,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(minus, &dash_equal,   RM0 RM1,     DEF NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(cap_i, &kp LS(I),     RM1 RM3,     DEF,         COMBO_TERM_SLOW)
-ZMK_COMBO(qmark, &kp QMARK,     RM1 RM3,     DEF,         COMBO_TERM_SLOW)
 
 /* Vertical combos - left hand */
+ZMK_COMBO(vplus, &kp PLUS,      LT1 LM1,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(grave, &kp GRAVE,     LT3 LM3,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(tilde, &kp TILDE,     LT4 LM4,     DEF NAV NUM, COMBO_TERM_SLOW)
 
@@ -40,9 +39,11 @@ ZMK_COMBO(copy,  &kp LG(C),     LB2 LM2,     DEF NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(paste, &kp LG(V),     LB1 LM1,     DEF NAV NUM, COMBO_TERM_FAST)
 
 /* Vertical combos - right hand */
+ZMK_COMBO(equal, &kp EQUAL,     RM0 RT0,     DEF NAV NUM, COMBO_TERM_SLOW)
+ZMK_COMBO(vminus,&dash_equal,   RM1 RT1,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(semi,  &kp SEMI,      RM2 RT2,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(colon, &kp COLON,     RM3 RT3,     DEF NAV NUM, COMBO_TERM_SLOW)
-ZMK_COMBO(pipe,  &kp PIPE,      RM4 RT4,     DEF NAV NUM, COMBO_TERM_SLOW)
+ZMK_COMBO(rpipe, &kp PIPE,      RM4 RT4,     DEF NAV NUM, COMBO_TERM_SLOW)
 
 ZMK_COMBO(fslh,  &kp FSLH,      RM1 RB1,     DEF NAV NUM, COMBO_TERM_SLOW)
 ZMK_COMBO(bslh,  &kp BSLH,      RM2 RB2,     DEF NAV NUM, COMBO_TERM_SLOW)
